@@ -1,59 +1,61 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  font-family:sans-serif;
-  margin: 25px;
-  color: #222;
-  background-color: #f5f5f5;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f0f5;
+  color: #333;
+  padding: 20px;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-  font-weight: bold;
-  
-}
-
-p {
-  max-width: 900px;
+  text-align: center;
+  color: #222;
+  font-weight: 700;
 }
 
 form {
   margin-bottom: 25px;
-  padding: 15px;
+  padding: 20px;
   background-color: #87D37C;
-  display: inline-block;
-  width: 100%;
-  max-width: 340px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 input {
-  display: block;
   margin-bottom: 10px;
-  padding: 5px;
+  padding: 10px;
   width: 100%;
-  border: 1px solid lightgrey;
-  border-radius: 3px;
-  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 input[type=submit] {
-  font-size: 16px;
-  border-radius: 3px;
-  background-color: #E4F1FE;
-  border: 1px solid grey;
-  box-shadow: 2px 2px #999;
+  background-color: #3498db;
+  color: white;
+  border: none;
   cursor: pointer;
+  padding: 10px;
+  transition: background-color 0.3s;
 }
 
 input[type=submit]:hover {
-  background-color: #FFFEC4;
+  background-color: #2980b9;
 }
 
 code {
-  font-family: monospace;
-  font-size: 1.2em;
-  background-color: #FFFEC4;
-  padding: 2px;
+  background-color: #f5f5f5;
+  padding: 5px;
+  border-radius: 3px;
 }
